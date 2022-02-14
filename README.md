@@ -6,6 +6,27 @@ They'd like to create an Apache Cassandra database which can create queries on s
 ## Project Description
 In this project, we'll model data with Apache Cassandra and build an ETL pipeline using Python. We will need to model the data by creating tables in Apache Cassandra to run queries. The ETL pipeline transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
 
+## Project Structure
+The project includes the following files and folders:
+
+```
+├── README.md
+├── Data_modeling_with_Apache_Cassandra.ipynb
+├── event_datafile_new.csv
+├── requirements.txt
+└── event_data
+```
+
+- `README.md` - a markdown file giving an overview of the project and explaining the project structure
+- `Data_modeling_with_Apache_Cassandra.ipynb` - implements the logic of the ETL pipeline, iterates through each event file in event_data to process and create a new CSV file in Python. 
+- `event_datafile_new.csv` - dataset to be processed to create a denormalized dataset
+- `requirements.txt` - stores information about all the Python libraries, modules, and packages that are used in the  project. 
+- `event_data` - directory of CSV files partitioned by date
+
+
+
+
+
 
 
 
