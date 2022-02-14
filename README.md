@@ -25,12 +25,14 @@ The project includes the following files and folders:
 - `assets` - folder with project assests (e.g. images)
 - `event_data` - directory of CSV files partitioned by date
 
+## Project Dataset
 
+For this project, we'will be working with one dataset: `event_data`. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
 
-
-
-
-
+```
+event_data/2018-11-08-events.csv
+event_data/2018-11-09-events.csv
+```
 
 ## Getting Started
 
