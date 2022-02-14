@@ -4,6 +4,23 @@ The repository shows how to model user activity data to create a database and ET
 
 ## Getting Started
 
+### Dependencies
+
+You will need to install all Python dependencies that are stored in the [requirements.txt](requirements.txt) file. 
+
+To install them, first open a terminal window in the folder of this repository and create & activate a virtual environment: 
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Then install the dependencies from the [requirements.txt](requirements.txt) file:
+
+```bash
+pip install -r requirements.txt 
+```
+
 ### Setup Apache Cassandra
 
 In this section, we describe how to install and start a Apache Cassandra database on local machine. The instructions apply to Linux and the method of installing Cassandra that we will use is through installing a Docker image:
