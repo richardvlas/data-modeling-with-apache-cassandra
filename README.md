@@ -14,13 +14,15 @@ The project includes the following files and folders:
 ├── Data_modeling_with_Apache_Cassandra.ipynb
 ├── event_datafile_new.csv
 ├── requirements.txt
+├── assets
 └── event_data
 ```
 
 - `README.md` - a markdown file giving an overview of the project and explaining the project structure
 - `Data_modeling_with_Apache_Cassandra.ipynb` - implements the logic of the ETL pipeline, iterates through each event file in event_data to process and create a new CSV file in Python. 
-- `event_datafile_new.csv` - dataset to be processed to create a denormalized dataset
+- `event_datafile_new.csv` - processed denormalized dataset file from raw event data files
 - `requirements.txt` - stores information about all the Python libraries, modules, and packages that are used in the  project. 
+- `assets` - folder with project assests (e.g. images)
 - `event_data` - directory of CSV files partitioned by date
 
 
